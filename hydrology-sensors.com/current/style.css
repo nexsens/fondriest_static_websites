@@ -1,0 +1,94 @@
+* { 
+	padding:0;
+	margin:0;
+}
+body {
+	margin: 2px auto;
+	width:1067px;
+	font-family:Verdana;
+	font-size:12px;
+}
+h1 {
+	font-size:20px;
+	color:#214565;
+	text-transform:uppercase;
+	font-weight:normal;
+	letter-spacing:.5px;
+	margin-bottom:10px;
+}
+h3 { 
+	font-size:14px;
+	color:#444;
+	margin-top:5px;
+}
+p { 
+	margin:3px 0 10px 0; 
+}
+img  {
+	border:0;
+}
+
+/*=== Header === */
+img.header { 
+	margin-left:-4px; 
+}
+img#navbar {
+	margin-top:-4px;
+}
+
+/*=== Featured Section:: Menu and Featured Image === */
+#featured-section {
+	clear:both;
+	margin-top:-3px;
+}
+
+#menu, #menu ul, #featured-image, #col-1  {
+	float:left;
+}
+#menu ul { 
+	list-style-type:none; 
+}
+#menu ul li {
+	background:top left url('images/menu-gradient.png') repeat-x;
+	height:28px;
+	width:194px;
+	padding:8px 0 0 10px;
+}
+#menu ul li a {
+	color:#6E6E70;
+	font-size:13px;
+	text-decoration:none;
+}
+
+
+/*=== Content Section ===*/
+#content, #copy, #copy a { 
+	color:#666; 
+}
+#content-container {
+	background: url('images/vertical-gradient.png') repeat-x bottom center;	
+	clear:both;
+	margin-top:5px;
+	padding-bottom:10px;
+	width:1064px;
+}
+#content {
+	background:white;
+	margin:10px 40px 0 40px;
+	padding:20px;
+}
+#col-1 { 
+	width:46%;
+	margin-right:4%;
+}
+#col-2 {
+	margin-left:3px;	
+	margin-left:50%;
+}
+#copy {
+	margin:0 40px 0 40px;
+	padding-top:8px;
+}
+#copy a {
+	text-decoration:none;
+}
